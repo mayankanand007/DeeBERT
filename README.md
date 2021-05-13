@@ -29,7 +29,7 @@ There are four scripts in the `scripts` folder, which can be run from the repo r
 
 In each script, there are several things to modify before running:
 
-* path to the GLUE dataset. Check [this](https://gist.github.com/W4ngatang/60c2bdb54d156a41194446737ce03e2e) for more details.
+* path to the GLUE dataset. Check [this](https://gist.github.com/W4ngatang/60c2bdb54d156a41194446737ce03e2e) for more details. The updated script to download the dataset is available in the repo as `download_glu_data.py`. You can execute it using `python download_glu_data.py --data_dir glue_data --tasks all`
 * path for saving fine-tuned models. Default: `./saved_models`.
 * path for saving evaluation results. Default: `./plotting`. Results are printed to stdout and also saved to `npy` files in this directory to facilitate plotting figures and further analyses.
 * model_type (bert or roberta)

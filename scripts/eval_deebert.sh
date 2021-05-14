@@ -1,5 +1,5 @@
-#!/bin/bash
-export CUDA_VISIBLE_DEVICES=0
+#!/bin/bash 
+export CUDA_VISIBLE_DEVICES=0 
 
 PATH_TO_DATA=/h/xinji/projects/GLUE
 

@@ -1,7 +1,7 @@
 #!/bin/bash 
 export CUDA_VISIBLE_DEVICES=0 
 
-PATH_TO_DATA=/h/xinji/projects/GLUE
+PATH_TO_DATA=${1}
 
 MODEL_TYPE=bert  # bert or roberta
 MODEL_SIZE=base  # base or large

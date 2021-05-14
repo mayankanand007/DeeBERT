@@ -36,6 +36,12 @@ In each script, there are several things to modify before running:
 * model_size (base or large)
 * dataset (SST-2, MRPC, RTE, QNLI, QQP, or MNLI)
 
+Path to Dataset, Model Type, Model Size and Dataset can be passed as command line arguments in this order while running the bash script. Eg:
+
+```
+bash scripts/eval_bert.sh [Path to dataset] [Model Type] [Model Size] [Dataset]
+```
+
 #### train.sh
 
 This is for fine-tuning and evaluating models as in the original BERT paper.
@@ -51,7 +57,6 @@ This is for evaluating each exit layer for fine-tuned DeeBERT models.
 #### eval_entropy.sh
 
 This is for evaluating fine-tuned DeeBERT models, given a number of different early exit entropy thresholds.
-
 
 
 ## Citation

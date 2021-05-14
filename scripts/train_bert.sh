@@ -4,9 +4,9 @@ export OMP_NUM_THREADS=1
 
 PATH_TO_DATA=${1}
 
-MODEL_TYPE=bert  # bert or roberta
-MODEL_SIZE=base  # base or large
-DATASET=MRPC  # SST-2, MRPC, RTE, QNLI, QQP, or MNLI
+MODEL_TYPE=${2}  # bert or roberta
+MODEL_SIZE=${3}  # base or large
+DATASET=${4}  # SST-2, MRPC, RTE, QNLI, QQP, or MNLI
 
 MODEL_NAME=${MODEL_TYPE}-${MODEL_SIZE}
 EPOCHS=10
